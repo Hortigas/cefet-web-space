@@ -4,5 +4,5 @@ document.querySelector('#calcular').addEventListener('click', () => {
     let massa2 = document.querySelector('#massa2').value;
     let distancia = document.querySelector('#distancia').value;
 
-    document.querySelector('#resultado').value = ((constante * massa1 * massa2) / Math.pow(distancia, 2)).toExponential();
+    document.querySelector('#resultado').value = ((constante * massa1 * massa2) / Math.pow(distancia, 2)).toExponential(2);
 });
